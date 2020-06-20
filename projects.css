@@ -90,6 +90,10 @@
         color: green;
         font-weight: 600;
     }
+    #parallax1,#udemy1{
+        text-decoration: none;
+        text-transform: uppercase;
+    }
     .summary-content{
         text-align: justify;
     }
@@ -249,6 +253,10 @@
         color: green;
         font-weight: 600;
     }
+    #parallax1,#udemy1{
+        text-decoration: none;
+        text-transform: uppercase;
+    }
     .summary-content{
         text-align: justify;
     }
@@ -402,6 +410,10 @@
     .parallax{
         color: green;
         font-weight: 600;
+    }
+    #parallax1,#udemy1{
+        text-decoration: none;
+        text-transform: uppercase;
     }
     .summary-content{
         text-align: justify;
@@ -563,6 +575,10 @@
     .parallax{
         color: green;
         font-weight: 600;
+    }
+    #parallax1,#udemy1{
+        text-decoration: none;
+        text-transform: uppercase;
     }
     .summary-content,.card-body ul li, .card-body ul ul li, .card-body ul ul ul li {
         text-align: justify;
