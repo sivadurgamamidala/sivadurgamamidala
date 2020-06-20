@@ -1,0 +1,613 @@
+@media (min-width:1200px){
+    body{
+        background-color: rgb(248, 248, 248) !important;
+    }
+    .title{
+        background-color: purple;
+        width: 100%;
+        height: 80px;
+        color: white;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 5px;
+    }
+    #cv{
+        text-decoration: underline;
+        color: white;
+    }
+    #name{
+        font-size: 24px;
+        line-height: 20px;
+        color: white;
+    }
+    #tag{
+        font-size: 14px;
+        line-height: 0px;
+        color: white;
+    }
+    .page .title a{
+        text-decoration: none;
+    }
+    .nav{
+        width: 100%;
+        height: 50px;
+        background-color: teal;
+        margin: auto;
+    }
+    .nav .container ul{
+        list-style-type: none;
+    }
+    .nav .container ul li{
+        display: inline;
+    }
+    fa-home,.nav .container ul li a{
+        color:white;
+        float: left;
+        text-decoration: none;
+        font-size: 18px;
+        text-transform: uppercase;
+        line-height: 50px;
+        padding:0px 20px;
+        text-align: center;
+    }
+    .nav .container li a:hover{
+        color: teal;
+        background-color: white;
+    }
+    .section{
+        background-color: white !important;
+        margin-top: 10px;
+        box-shadow: 2px 3px 8px 4px #d5d1d5;
+    }
+    @media (min-width:1200px){
+        .section{
+            max-width: 1010px;
+        }
+    }
+    @media (min-width:1300px){
+        .section{
+            max-width: 1108px;
+        }
+    }
+    .card-title{
+        text-align: center;
+        text-transform: uppercase;
+        box-shadow: 2px 2px 2px 2px black;
+        height: 30px;
+        line-height: 30px;
+    }
+    .sub-heading{
+        text-transform: uppercase;
+        font-size: 18px;
+    }
+    .title-name{
+        text-decoration: underline;
+        color: green;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    .parallax{
+        color: green;
+        font-weight: 600;
+    }
+    .summary-content{
+        text-align: justify;
+    }
+    .card-text a{
+        text-decoration: none;
+    }
+    .card-gap{
+        margin-top: 10px;
+    }
+    .fa-home{
+        font-size: 25px !important;
+    }
+
+    .fa-arrow-circle-o-up{
+        position: fixed;
+        bottom: 50px;
+        right: 10px;
+        font-size: 50px !important;
+    }
+    #scroll{
+        font-size: 16px;
+    }
+    .footer{
+        width: 100%;
+        height: 50px;
+        position: absolute;
+        display: block;
+        color: white;
+        background-color: black;
+        text-align: center;
+        margin-top:10px;
+        font-size: 24px;
+        line-height: 50px;
+        float: left;
+    }
+    .footer span{
+        padding: 0px 5px;
+    }
+    .footer a{
+        color: white;
+        text-decoration: none;
+    }
+    .footer a li{
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        list-style-type:none ;
+    }
+}
+@media (min-width:768px) and (max-width:1199px){
+    body{
+        background-color: rgb(248, 248, 248);
+    }
+    .title{
+        background-color: purple;
+        width: 100%;
+        height: 80px;
+        color: white;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 5px;
+    }
+    #cv{
+        text-decoration: underline;
+        color: white;
+    }
+    #name{
+        font-size: 24px;
+        line-height: 20px;
+        color: white;
+    }
+    #tag{
+        font-size: 14px;
+        line-height: 0px;
+        color: white;
+    }
+    .page .title a{
+        text-decoration: none;
+    }
+    .nav{
+        width: 100%;
+        height: 50px;
+        background-color: teal;
+        margin: auto;
+    }
+    .nav .container ul{
+        list-style-type: none;
+    }
+    .nav .container ul li{
+        display: inline;
+    }
+    .nav .container ul li a{
+        color:white;
+        float: left;
+        text-decoration: none;
+        font-size: 18px;
+        text-transform: uppercase;
+        line-height: 50px;
+        padding:0px 20px;
+        text-align: center;
+    }
+    .fa-home{
+        font-size: 25px !important;
+    }
+    .nav .container li a:hover{
+        color: teal;
+        background-color: white;
+    }
+    .section{
+        background-color: white !important;
+        margin-top: 10px;
+        box-shadow: 2px 3px 8px 4px #d5d1d5;
+    }
+    @media (min-width:768px){
+        .section{
+            max-width: 625px;
+        }
+    }
+    @media (min-width:868px){
+        .section{
+            max-width: 715px;
+        }
+    }
+    @media (min-width:968px){
+        .section{
+            max-width: 810px;
+        }
+    }
+    @media (min-width:1068px){
+        .section{
+            max-width: 915px;
+        }
+    }
+    @media (min-width:1168px){
+        .section{
+            max-width: 1010px;
+        }
+    }
+    .card-title{
+        text-align: center;
+        text-transform: uppercase;
+        box-shadow: 2px 2px 2px 2px black;
+        height: 30px;
+        line-height: 30px;
+    }
+    .sub-heading{
+        text-transform: uppercase;
+        font-size: 18px;
+    }
+    .title-name{
+        text-decoration: underline;
+        color: green;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    .parallax{
+        color: green;
+        font-weight: 600;
+    }
+    .summary-content{
+        text-align: justify;
+    }
+    .card-text a{
+        text-decoration: none;
+    }
+    .card-gap{
+        margin-top: 10px;
+    }
+    .fa-arrow-circle-o-up{
+        position: fixed;
+        bottom: 50px;
+        right: 10px;
+        font-size: 30px !important;
+    }
+    #scroll{
+        font-size: 16px;
+    }
+    .fa-arrow-circle-o-up #scroll{
+        margin-left: -10px;
+    }
+    .footer{
+        width: 100%;
+        height: 50px;
+        position: absolute;
+        display: block;
+        color: white;
+        background-color: black;
+        text-align: center;
+        margin-top:10px;
+        font-size: 24px;
+        line-height: 50px;
+        float: left;
+        text-transform: capitalize;
+    }
+    .footer span{
+        padding: 0px 5px;
+    }
+    .footer a{
+        color: white;
+        text-decoration: none;
+    }
+}
+@media (min-width:500px) and (max-width:767px){
+    body{
+        background-color:yellow;
+    }
+    .title{
+        background-color: purple;
+        width: 100%;
+        height: 50px;
+        color: white;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 2px;
+    }
+    #cv{
+        text-decoration: underline;
+        color: white;
+    }
+    #name{
+        font-size: 16px;
+        line-height: 10px;
+        color: white;
+    }
+    #tag{
+        display: none;
+    }
+    .page .title a{
+        text-decoration: none;
+    }
+    .nav{
+        width: 100%;
+        height: 34px;
+        background-color: teal;
+        margin: auto;
+    }
+    .nav .container ul{
+        list-style-type: none;
+    }
+    .nav .container ul li{
+        display: inline;
+    }
+    .nav .container ul li a{
+        color:white;
+        float: left;
+        text-decoration: none;
+        font-size: 18px;
+        text-transform: uppercase;
+        line-height: 34px;
+        padding:0px 10px;
+        text-align: center;
+    }
+    .fa-home{
+        font-size: 22px !important;
+    }
+    .nav .container li a:hover{
+        color: teal;
+        background-color: white;
+    }
+    .section{
+        background-color: white !important;
+        margin-top: 10px;
+        box-shadow: 2px 3px 8px 4px rgba(88, 88, 84, 0.822);
+    }
+    @media (min-width:500px){
+        .section{
+            max-width: 450px;
+            line-height: 20px;
+        }
+        #udemy,.parallax-image,.registration-form-image,.login-page{
+            width: 100% !important;
+            height: 250px !important;
+            float: none !important;
+        }
+    }
+    @media (min-width:600px){
+        .section{
+            max-width: 500px;
+            line-height: 20px;
+        }
+        #udemy,.parallax-image,.registration-form-image,.login-page{
+            width: 100% !important;
+            height: 300px !important;
+            float: none !important;
+        }
+    }
+    @media (min-width:700px){
+        .section{
+            max-width: 550px;
+            line-height: 20px;
+        }
+    }
+    .card-title{
+        text-align: center;
+        text-transform: uppercase;
+        box-shadow: 2px 2px 2px 2px black;
+        height: 30px;
+        line-height: 30px;
+    }
+    .sub-heading{
+        text-transform: uppercase;
+        font-size: 18px;
+    }
+    .title-name{
+        text-decoration: underline;
+        color: green;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    .parallax{
+        color: green;
+        font-weight: 600;
+    }
+    .summary-content{
+        text-align: justify;
+    }
+    .card-text a{
+        text-decoration: none;
+    }
+    .card-gap{
+        margin-top: 10px;
+    }
+    .fa-arrow-circle-o-up{
+        position: fixed;
+        bottom: 25px;
+        right: 10px;
+        font-size: 30px !important;
+    }
+    #scroll{
+        font-size: 16px;
+    }
+    .fa-arrow-circle-o-up #scroll{
+        margin-left: -10px;
+    }
+    .footer{
+        width: 100%;
+        height: 30px;
+        position: absolute;
+        display: block;
+        color: white;
+        background-color: black;
+        text-align: center;
+        margin-top:10px;
+        font-size: 16px;
+        line-height: 30px;
+        float: left;
+    }
+    .footer span{
+        padding: 0px 5px;
+    }
+    .footer a{
+        color: white;
+        text-decoration: none;
+    }
+}
+@media (min-width:360px) and (max-width:499px){
+    body{
+        background-color: rgb(248, 248, 248);
+    }
+    .title{
+        background-color: purple;
+        width: 100%;
+        height: 50px;
+        color: white;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 2px;
+    }
+    #cv{
+        text-decoration: underline;
+        color: white;
+    }
+    #name{
+        font-size: 16px;
+        line-height: 10px;
+        color: white;
+    }
+    #tag{
+        display: none;
+    }
+    .page .title a{
+        text-decoration: none;
+    }
+    .nav{
+        width: 100%;
+        height: 170px;
+        background-color: white;
+        margin: auto;
+    }
+    .nav .container{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .nav .container ul{
+        list-style-type: none;
+    }
+    .nav .container ul li a{
+        color: blue;
+        text-decoration: none;
+        font-size: 18px;
+        text-transform: uppercase;
+        line-height: 34px;
+        padding:0px 10px;
+        text-align: center;
+    }
+    .fa-home{
+        font-size: 22px !important;
+    }
+    .nav .container li a:hover{
+        background-color: white;
+        color: green;
+    }
+    @media (min-width:360px){
+        .section{
+            max-width: 340px;
+        }
+        .btn-outline-warning{
+            font-size: 10px;
+        }
+        #udemy,.parallax-image,.registration-form-image,.login-page{
+            height: 180px !important;
+        }
+    }
+    @media (min-width:380px){
+        .section{
+            max-width: 360px;
+        }
+    }
+    @media (min-width:400px){
+        .section{
+            max-width: 380px;
+        }
+        .btn-outline-warning{
+            font-size: 13px;
+        }
+        #udemy,.parallax-image,.registration-form-image,.login-page{
+            height: 200px !important;
+        }
+    }
+    @media (min-width:450px){
+        .section{
+            max-width: 400px;
+        }
+        #udemy,.parallax-image,.registration-form-image,.login-page{
+            height: 225px !important;
+        }
+    }
+    .section{
+        background-color: white !important;
+        margin-top: 10px;
+        box-shadow: 2px 3px 8px 4px #d5d1d5;
+    }
+    .card-title{
+        text-align: center;
+        text-transform: uppercase;
+        box-shadow: 2px 2px 2px 2px black;
+        height: 30px;
+        line-height: 30px;
+    }
+    .sub-heading{
+        text-transform: uppercase;
+        font-size: 15px;
+    }
+    .title-name{
+        text-decoration: underline;
+        color: green;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    .parallax{
+        color: green;
+        font-weight: 600;
+    }
+    .summary-content,.card-body ul li, .card-body ul ul li, .card-body ul ul ul li {
+        text-align: justify;
+        font-size: 14px;
+    }
+    #udemy,.parallax-image,.registration-form-image,.login-page{
+        width: 100% !important;
+        float: none !important;
+    }
+    .card-text a{
+        text-decoration: none;
+    }
+    .card-gap{
+        margin-top: 10px;
+    }
+    .fa-arrow-circle-o-up{
+        position: fixed;
+        bottom: 25px;
+        right: 10px;
+        font-size: 30px !important;
+    }
+    #scroll{
+        font-size: 16px;
+    }
+    .fa-arrow-circle-o-up #scroll{
+        margin-left: -10px;
+    }
+    .footer{
+        width: 100%;
+        height: 30px;
+        position: absolute;
+        display: block;
+        color: white;
+        background-color: black;
+        text-align: center;
+        margin-top:10px;
+        font-size: 16px;
+        line-height: 30px;
+        float: left;
+    }
+    .footer span{
+        padding: 0px 5px;
+    }
+    .footer a{
+        color: white;
+        text-decoration: none;
+    }
+}

@@ -1,0 +1,584 @@
+@media (min-width:1200px){
+    body{
+        background-color: rgb(248, 248, 248);
+    }
+    .title{
+        background-color: purple;
+        width: 100%;
+        height: 80px;
+        color: white;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 5px;
+    }
+    #cv{
+        text-decoration: underline;
+        color: white;
+    }
+    #name{
+        font-size: 24px;
+        line-height: 20px;
+        color: white;
+    }
+    #tag{
+        font-size: 14px;
+        line-height: 0px;
+        color: white;
+    }
+    .page .title a{
+        text-decoration: none;
+    }
+    .nav{
+        width: 100%;
+        height: 50px;
+        background-color: teal;
+        margin: auto;
+    }
+    .nav .container ul{
+        list-style-type: none;
+    }
+    .nav .container ul li{
+        display: inline;
+    }
+    .nav .container ul li a{
+        color:white;
+        float: left;
+        text-decoration: none;
+        font-size: 18px;
+        text-transform: uppercase;
+        line-height: 50px;
+        padding:0px 20px;
+        text-align: center;
+    }
+    .fa-home{
+        font-size: 25px !important;
+    }
+    .nav .container li a:hover{
+        color: teal;
+        background-color: white;
+    }
+    .section{
+        margin-top: 10px;
+    }
+    .col-4{
+        max-width: 500px;
+    }
+    .card-title{
+        text-transform: uppercase;
+    }
+    .card-title1{
+        color: green;
+    }
+    .col-4 .card-img-top{
+        width: 225px;
+        height: 225px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        border-radius: 50%;
+        background-color: whitesmoke;
+    }
+    .card{
+        box-shadow: 2px 3px 8px 4px #d5d1d5;
+    }
+    .card-gap{
+        margin-top: 10px;
+    }
+    .card .card-body .form-group{
+        margin-bottom: 9px !important;
+    }
+    .switch1{
+        display: none;
+    }
+    .fa-arrow-circle-o-up{
+        position: fixed;
+        bottom: 50px;
+        right: 10px;
+        font-size: 50px !important;
+    }
+    #scroll{
+        font-size: 16px;
+    }
+    .footer{
+        width: 100%;
+        height: 50px;
+        position: absolute;
+        display: block;
+        color: white;
+        background-color: black;
+        text-align: center;
+        margin-top:10px;
+        font-size: 24px;
+        line-height: 50px;
+        float: left;
+    }
+    .footer span{
+        padding: 0px 5px;
+    }
+    .footer a{
+        color: white;
+        text-decoration: none;
+    }
+    .footer a li{
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        list-style-type:none ;
+    }
+}
+@media (min-width:768px) and (max-width:1199px){
+    body{
+        background-color: rgb(248, 248, 248);
+    }
+    .title{
+        background-color: purple;
+        width: 100%;
+        height: 80px;
+        color: white;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 5px;
+    }
+    #cv{
+        text-decoration: underline;
+        color: white;
+    }
+    #name{
+        font-size: 24px;
+        line-height: 20px;
+        color: white;
+    }
+    #tag{
+        font-size: 14px;
+        line-height: 0px;
+        color: white;
+    }
+    .page .title a{
+        text-decoration: none;
+    }
+    .nav{
+        width: 100%;
+        height: 50px;
+        background-color: teal;
+        margin: auto;
+    }
+    .nav .container ul{
+        list-style-type: none;
+    }
+    .nav .container ul li{
+        display: inline;
+    }
+    .nav .container ul li a{
+        color:white;
+        float: left;
+        text-decoration: none;
+        font-size: 18px;
+        text-transform: uppercase;
+        line-height: 50px;
+        padding:0px 20px;
+        text-align: center;
+    }
+    .fa-home{
+        font-size: 25px !important;
+    }
+    .nav .container li a:hover{
+        color: teal;
+        background-color: white;
+    }
+    .section{
+        margin-top: 10px;
+    }
+    .col-4{
+        max-width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card-title{text-transform: uppercase;}
+    .col-4 .card-img-top{
+        width: 225px;
+        height: 225px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        border-radius: 50%;
+        background-color: whitesmoke;
+    }
+    .card{
+        box-shadow: 2px 3px 8px 4px #d5d1d5;
+    }
+    .card-gap{
+        margin-top: 10px;
+    }
+    /* .card .card-body .form-group{
+        margin-bottom: 4px !important;
+    } */
+    .col-8{
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 24px;
+        min-width: 350px;
+    }
+    @media (min-width:768px){
+        .col-8{
+            max-width: 395px;
+        }
+        .card .card-body .form-group{
+            margin-bottom: 12px !important;
+        }
+    }
+    @media (min-width:800px){
+        .col-8{
+            max-width: 395px;
+        } 
+    }
+    @media (min-width:900px){
+        .col-8{
+            max-width: 400px;
+        }
+    }
+    @media (min-width:992px){
+        .col-8{
+            max-width: 620px;
+        }
+        .card .card-body .form-group{
+            margin-bottom: 4px !important;
+        }
+    }
+    @media (min-width:1100px){
+        .col-8{
+            max-width: 635px;
+        }
+    }
+    .skills .card-body ul li{
+        line-height: 26px;
+    }
+    .card-title1{
+        color: green;
+    }
+    .switch{
+        display: block;
+    }
+    .switch1{
+        display: none;
+    }
+    .fa-arrow-circle-o-up{
+        position: fixed;
+        bottom: 50px;
+        right: 10px;
+        font-size: 30px !important;
+    }
+    #scroll{
+        font-size: 16px;
+    }
+    .fa-arrow-circle-o-up #scroll{
+        margin-left: -10px;
+    }
+    .footer{
+        width: 100%;
+        height: 50px;
+        position: absolute;
+        display: block;
+        color: white;
+        background-color: black;
+        text-align: center;
+        margin-top:10px;
+        font-size: 24px;
+        line-height: 50px;
+        float: left;
+        text-transform: capitalize;
+    }
+    .footer span{
+        padding: 0px 5px;
+    }
+    .footer a{
+        color: white;
+        text-decoration: none;
+    }
+}
+@media (min-width:500px) and (max-width:767px){
+    body{
+        background-color:yellow;
+    }
+    .title{
+        background-color: purple;
+        width: 100%;
+        height: 50px;
+        color: white;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 2px;
+    }
+    #cv{
+        text-decoration: underline;
+        color: white;
+    }
+    #name{
+        font-size: 16px;
+        line-height: 10px;
+        color: white;
+    }
+    #tag{
+        display: none;
+    }
+    .page .title a{
+        text-decoration: none;
+    }
+    .nav{
+        width: 100%;
+        height: 34px;
+        background-color: teal;
+        margin: auto;
+    }
+    .nav .container ul{
+        list-style-type: none;
+    }
+    .nav .container ul li{
+        display: inline;
+    }
+    .nav .container ul li a{
+        color:white;
+        float: left;
+        text-decoration: none;
+        font-size: 18px;
+        text-transform: uppercase;
+        line-height: 34px;
+        padding:0px 10px;
+        text-align: center;
+    }
+    .fa-home{
+        font-size: 22px !important;
+    }
+    .nav .container li a:hover{
+        color: teal;
+        background-color: white;
+    }
+    .section{
+        margin-top: 10px;
+    }
+    .col-4{
+        max-width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card-title{
+        text-transform: uppercase;
+        font-size: 16px;
+        text-align: center;
+    }
+    .col-4 .card-img-top{
+        width: 225px;
+        height: 225px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        border-radius: 50%;
+        background-color: whitesmoke;
+    }
+    .card{
+        box-shadow: 2px 3px 8px 4px rgba(88, 88, 84, 0.822);
+    }
+    .card-gap{
+        margin-top: 10px;
+    }
+    .card .card-body .form-group{
+        margin-bottom: 4px !important;
+    }
+    .switch{
+        display: none;
+    }
+    .switch1{
+        display: block;
+    }
+    .col-8{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        line-height: 20px;
+        float: left;
+        flex: none;
+    }
+    @media (min-width:500px){
+        .col-8{
+            max-width: 395px;
+        }
+    }
+    @media (min-width:600px){
+        .col-8{
+            max-width: 495px;
+        }
+    }
+    @media (min-width:700px){
+        .col-8{
+            max-width: 595px;
+        }
+    }
+    .fa-arrow-circle-o-up{
+        position: fixed;
+        bottom: 25px;
+        right: 10px;
+        font-size: 30px !important;
+    }
+    #scroll{
+        font-size: 16px;
+    }
+    .fa-arrow-circle-o-up #scroll{
+        margin-left: -10px;
+    }
+    .footer{
+        width: 100%;
+        height: 30px;
+        position: absolute;
+        display: block;
+        color: white;
+        background-color: black;
+        text-align: center;
+        margin-top:10px;
+        font-size: 16px;
+        line-height: 30px;
+        float: left;
+    }
+    .footer span{
+        padding: 0px 5px;
+    }
+    .footer a{
+        color: white;
+        text-decoration: none;
+    }
+}
+@media (min-width:360px) and (max-width:499px){
+    body{
+        background-color:rgb(248, 248, 248);
+    }
+    .title{
+        background-color: purple;
+        width: 100%;
+        height: 50px;
+        color: white;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 2px;
+    }
+    #cv{
+        text-decoration: underline;
+        color: white;
+    }
+    #name{
+        font-size: 16px;
+        line-height: 10px;
+        color: white;
+    }
+    #tag{
+        display: none;
+    }
+    .page .title a{
+        text-decoration: none;
+    }
+    .nav{
+        width: 100%;
+        height: 170px;
+        background-color: white;
+        margin: auto;
+    }
+    .nav .container{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .nav .container ul{
+        list-style-type: none;
+    }
+    .nav .container ul li a{
+        color: blue;
+        text-decoration: none;
+        font-size: 18px;
+        text-transform: uppercase;
+        line-height: 34px;
+        padding:0px 10px;
+        text-align: center;
+    }
+    .fa-home{
+        font-size: 22px !important;
+    }
+    .nav .container li a:hover{
+        background-color: white;
+        color: green;
+    }
+    .section{
+        margin-top: 10px;
+    }
+    .col-4{
+        max-width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card-title{
+        text-transform: uppercase;
+        font-size: 16px;
+        text-align: center;
+    }
+    .col-4 .card-img-top{
+        width: 225px;
+        height: 225px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        border-radius: 50%;
+        background-color: whitesmoke;
+    }
+    .card{
+        box-shadow: 2px 3px 8px 4px rgba(88, 88, 84, 0.822);
+    }
+    .card-gap{
+        margin-top: 10px;
+    }
+    .card .card-body .form-group{
+        margin-bottom: 4px !important;
+    }
+    .switch{
+        display: none;
+    }
+    .switch1{
+        display: block;
+    }
+    .col-8{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        line-height: 20px;
+        max-width: 350px;
+        float: left;
+        flex: none;
+    }
+    .fa-arrow-circle-o-up{
+        position: fixed;
+        bottom: 25px;
+        right: 10px;
+        font-size: 30px !important;
+    }
+    #scroll{
+        font-size: 16px;
+    }
+    .fa-arrow-circle-o-up #scroll{
+        margin-left: -10px;
+    }
+    .footer{
+        width: 100%;
+        height: 30px;
+        position: absolute;
+        display: block;
+        color: white;
+        background-color: black;
+        text-align: center;
+        margin-top:10px;
+        font-size: 16px;
+        line-height: 30px;
+        float: left;
+    }
+    .footer span{
+        padding: 0px 5px;
+    }
+    .footer a{
+        color: white;
+        text-decoration: none;
+    }
+}

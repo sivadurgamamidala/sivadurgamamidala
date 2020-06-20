@@ -1,0 +1,883 @@
+@media (min-width: 1200px) {
+  body {
+    background-color: #f8f8f8;
+  }
+  body .page .title {
+    background-color: purple;
+    width: 100%;
+    height: 80px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 5px;
+  }
+  body .page .title a {
+    text-decoration: none;
+  }
+  body .page .title #cv {
+    text-decoration: underline;
+    color: white;
+  }
+  body .page .title div #name {
+    font-size: 24px;
+    line-height: 20px;
+    color: white;
+  }
+  body .page .title div #tag {
+    font-size: 14px;
+    line-height: 0px;
+    color: white;
+  }
+  body .page .nav {
+    width: 100%;
+    height: 50px;
+    background-color: teal;
+    margin: auto;
+  }
+  body .page .nav .container ul {
+    list-style-type: none;
+  }
+  body .page .nav .container ul li {
+    display: inline;
+  }
+  body .page .nav .container ul li a {
+    color: white;
+    line-height: 50px;
+    padding: 0px 20px;
+    float: left;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  body .page .nav .container ul li a .fa-home {
+    font-size: 25px !important;
+  }
+  body .page .nav .container ul li a:hover {
+    color: teal;
+    background-color: white;
+  }
+  body .page .section {
+    margin-top: 10px;
+  }
+  body .page .section .row .col-4 {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body .page .section .row .col-4 .card {
+    box-shadow: 2px 3px 8px 4px #d5d1d5;
+  }
+  body .page .section .row .col-4 .card .card-img-top {
+    width: 225px;
+    height: 225px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 50%;
+    background-color: whitesmoke;
+  }
+  body .page .section .row .col-4 .card .card-body .card-title {
+    text-transform: uppercase;
+  }
+  body .page .section .row .col-4 .card .card-body .card-title {
+    text-transform: uppercase;
+  }
+  body .page .section .row .col-4 .card .card-body .form-group {
+    margin-bottom: 9px !important;
+  }
+  body .page .section .row .col-8 .card {
+    box-shadow: 2px 3px 8px 4px #d5d1d5;
+  }
+  body .page .section .row .col-8 .card .card-body .card-title .edu-size {
+    font-size: 17px;
+    text-transform: uppercase;
+  }
+  body .page .section .row .col-8 .card .card-body .edu-size {
+    text-transform: uppercase;
+  }
+  body .page .section .row .col-8 .card .card-body .Educational .edu-size {
+    font-size: 17px;
+    text-transform: uppercase;
+  }
+  body .page .section .row .col-8 .card .card-body .Educational form table tr th {
+    padding: 0px 10px;
+    float: left;
+    display: block;
+    text-align: center;
+    border: 1px solid black;
+    word-wrap: break-word;
+    height: 50px;
+  }
+  body .page .section .row .col-8 .card .card-body .Educational form table tr .course, body .page .section .row .col-8 .card .card-body .Educational form table tr .board, body .page .section .row .col-8 .card .card-body .Educational form table tr .institution {
+    width: 166px;
+  }
+  body .page .section .row .col-8 .card .card-body .Educational form table tr .year {
+    width: 80px;
+  }
+  body .page .section .row .col-8 .card .card-body .Educational form table tr .cgpa {
+    width: 107px;
+  }
+  body .page .section .row .col-8 .card .card-body .Educational form table tr td {
+    padding: 0px 10px;
+    float: left;
+    display: block;
+    text-align: center;
+    border: 1px solid black;
+    word-wrap: break-word;
+    height: 100px;
+  }
+  body .page .section .row .col-8 .card .card-body .Educational form table tr .course, body .page .section .row .col-8 .card .card-body .Educational form table tr .board, body .page .section .row .col-8 .card .card-body .Educational form table tr .institution {
+    width: 166px;
+  }
+  body .page .section .row .col-8 .card .card-body .Educational form table tr .year {
+    width: 80px;
+  }
+  body .page .section .row .col-8 .card .card-body .Educational form table tr .cgpa {
+    width: 107px;
+  }
+  body .page .section .row .col-8 .card .card-body .Internship .intern-size {
+    font-size: 17px;
+    text-transform: uppercase;
+  }
+  body .page .section .row .col-8 .card .card-body .Internship ul li a {
+    text-decoration: none !important;
+  }
+  body .page .section .row .col-8 .card .card-body .project .project-size {
+    font-size: 17px;
+    text-transform: uppercase;
+  }
+  body .page .section .row .col-8 .card .card-body .project ul li a {
+    text-decoration: none !important;
+  }
+  body .page .section .row .col-8 .card .card-body .Responsibility {
+    text-align: justify;
+  }
+  body .page .section .row .col-8 .card .card-body .Responsibility .intern-size {
+    font-size: 17px;
+    text-transform: uppercase;
+  }
+  body .page .section .row .col-8 .hobbies-display {
+    display: none;
+  }
+  body .page div a .fa-arrow-circle-o-up {
+    position: fixed;
+    top: 540px;
+    left: 1270px;
+    font-size: 50px !important;
+  }
+  body .page div a .fa-arrow-circle-o-up #scroll {
+    font-size: 16px;
+  }
+  body .page .footer {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    display: block;
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 24px;
+    line-height: 50px;
+    float: left;
+    text-transform: uppercase;
+  }
+  body .page .footer span {
+    padding: 0px 5px;
+  }
+  body .page .footer a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .card-gap {
+    margin-top: 10px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  body {
+    background-color: #f8f8f8;
+  }
+  body .page .title {
+    background-color: purple;
+    width: 100%;
+    height: 80px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 5px;
+  }
+  body .page .title a {
+    text-decoration: none;
+  }
+  body .page .title #cv {
+    text-decoration: underline;
+    color: white;
+  }
+  body .page .title div #name {
+    font-size: 24px;
+    line-height: 20px;
+    color: white;
+  }
+  body .page .title div #tag {
+    font-size: 14px;
+    line-height: 0px;
+    color: white;
+  }
+  body .page .nav {
+    width: 100%;
+    height: 50px;
+    background-color: teal;
+    margin: auto;
+  }
+  body .page .nav .container ul {
+    list-style-type: none;
+  }
+  body .page .nav .container ul li {
+    display: inline;
+  }
+  body .page .nav .container ul li a {
+    color: white;
+    line-height: 50px;
+    padding: 0px 20px;
+    float: left;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  body .page .nav .container ul li a .fa-home {
+    font-size: 25px !important;
+  }
+  body .page .nav .container ul li a:hover {
+    color: teal;
+    background-color: white;
+  }
+  body .page .section {
+    margin-top: 10px;
+  }
+  body .page .section .row .col-4 {
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body .page .section .row .col-4 .card {
+    box-shadow: 2px 3px 8px 4px #d5d1d5;
+  }
+  body .page .section .row .col-4 .card .card-img-top {
+    width: 225px;
+    height: 225px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 50%;
+    background-color: whitesmoke;
+  }
+  body .page .section .row .col-4 .card .card-body .card-title {
+    text-transform: uppercase;
+  }
+  body .page .section .row .col-4 .card .card-body .card-title {
+    text-transform: uppercase;
+  }
+  body .page .section .row .col-4 .card .card-body .form-group {
+    margin-bottom: 9px !important;
+  }
+  body .page .section .row .col-8 {
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 20px;
+  }
+  body .page .section .row .col-8 .card {
+    box-shadow: 2px 3px 8px 4px #d5d1d5;
+  }
+  body .page .section .row .col-8 .card .card-body .card-title .edu-size {
+    font-size: 17px;
+    text-transform: uppercase;
+  }
+  body .page .section .row .col-8 .card .card-body .edu-size {
+    text-transform: uppercase;
+  }
+  body .page .section .row .col-8 .card .card-body .Educational .edu-size {
+    font-size: 17px;
+    text-transform: uppercase;
+  }
+  body .page .section .row .col-8 .card .card-body .Educational form {
+    overflow-x: scroll;
+  }
+  body .page .section .row .col-8 .card .card-body .Educational form table {
+    overflow: hidden;
+    width: 640px;
+  }
+  body .page .section .row .col-8 .card .card-body .Educational form table tr th {
+    padding: 0px 10px;
+    float: left;
+    display: block;
+    text-align: center;
+    border: 1px solid black;
+    word-wrap: break-word;
+    height: 50px;
+  }
+  body .page .section .row .col-8 .card .card-body .Educational form table tr .course, body .page .section .row .col-8 .card .card-body .Educational form table tr .board, body .page .section .row .col-8 .card .card-body .Educational form table tr .institution {
+    width: 150px;
+  }
+  body .page .section .row .col-8 .card .card-body .Educational form table tr .year {
+    width: 80px;
+  }
+  body .page .section .row .col-8 .card .card-body .Educational form table tr .cgpa {
+    width: 107px;
+  }
+  body .page .section .row .col-8 .card .card-body .Educational form table tr td {
+    padding: 0px 10px;
+    float: left;
+    display: block;
+    text-align: center;
+    border: 1px solid black;
+    word-wrap: break-word;
+    height: 100px;
+  }
+  body .page .section .row .col-8 .card .card-body .Educational form table tr .course, body .page .section .row .col-8 .card .card-body .Educational form table tr .board, body .page .section .row .col-8 .card .card-body .Educational form table tr .institution {
+    width: 150px;
+  }
+  body .page .section .row .col-8 .card .card-body .Educational form table tr .year {
+    width: 80px;
+  }
+  body .page .section .row .col-8 .card .card-body .Educational form table tr .cgpa {
+    width: 107px;
+  }
+  body .page .section .row .col-8 .card .card-body .Internship {
+    text-align: justify;
+  }
+  body .page .section .row .col-8 .card .card-body .Internship .intern-size {
+    font-size: 17px;
+    text-transform: uppercase;
+  }
+  body .page .section .row .col-8 .card .card-body .Internship ul li a {
+    text-decoration: none !important;
+  }
+  body .page .section .row .col-8 .card .card-body .project {
+    text-align: justify;
+  }
+  body .page .section .row .col-8 .card .card-body .project .project-size {
+    font-size: 17px;
+    text-transform: uppercase;
+  }
+  body .page .section .row .col-8 .card .card-body .project ul li a {
+    text-decoration: none !important;
+  }
+  body .page .section .row .col-8 .card .card-body .Responsibility {
+    text-align: justify;
+  }
+  body .page .section .row .col-8 .card .card-body .Responsibility .intern-size {
+    font-size: 17px;
+    text-transform: uppercase;
+  }
+  body .page .section .row .col-8 .hobbies-display {
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) and (min-width: 768px) {
+  body .page .section .row .col-8 {
+    max-width: 395px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) and (min-width: 980px) {
+  body .page .section .row .col-8 {
+    max-width: 395px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) and (min-width: 992px) {
+  body .page .section .row .col-8 {
+    max-width: 620px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) and (min-width: 1100px) {
+  body .page .section .row .col-8 {
+    max-width: 635px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  body .page div a .fa-arrow-circle-o-up {
+    position: fixed;
+    top: 540px;
+    left: 1270px;
+    font-size: 50px !important;
+  }
+  body .page div a .fa-arrow-circle-o-up #scroll {
+    font-size: 16px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  body .page .footer {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    display: block;
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 24px;
+    line-height: 50px;
+    float: left;
+    text-transform: uppercase;
+  }
+  body .page .footer span {
+    padding: 0px 5px;
+  }
+  body .page .footer a {
+    color: white;
+    text-decoration: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .card-gap {
+    margin-top: 10px;
+  }
+}
+@media (min-width: 500px) and (max-width: 767px) {
+  body {
+    background-color: yellow;
+  }
+  body .page .title {
+    background-color: purple;
+    width: 100%;
+    height: 50px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 2px;
+  }
+  body .page .title a {
+    text-decoration: none;
+  }
+  body .page .title #cv {
+    text-decoration: underline;
+    color: white;
+  }
+  body .page .title div #name {
+    font-size: 16px;
+    line-height: 10px;
+    color: white;
+  }
+  body .page .title div #tag {
+    display: none;
+  }
+  body .page .nav {
+    width: 100%;
+    height: 34px;
+    background-color: teal;
+    margin: auto;
+  }
+  body .page .nav .container ul {
+    list-style-type: none;
+  }
+  body .page .nav .container ul li {
+    display: inline;
+  }
+  body .page .nav .container ul li a {
+    color: white;
+    line-height: 34px;
+    padding: 0px 10px;
+    float: left;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  body .page .nav .container ul li a .fa-home {
+    font-size: 22px !important;
+  }
+  body .page .nav .container ul li a:hover {
+    color: teal;
+    background-color: white;
+  }
+  body .page .section {
+    margin-top: 10px;
+  }
+  body .page .section .row .col-4 {
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body .page .section .row .col-4 .card {
+    box-shadow: 2px 3px 8px 4px rgba(88, 88, 84, 0.822);
+  }
+  body .page .section .row .col-4 .card .card-img-top {
+    width: 225px;
+    height: 225px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 50%;
+    background-color: whitesmoke;
+  }
+  body .page .section .row .col-4 .card .card-body .card-title {
+    text-transform: uppercase;
+  }
+  body .page .section .row .col-4 .hobbies {
+    display: none;
+  }
+  body .page .section .row .col-4 .card .card-body .card-title {
+    text-transform: uppercase;
+  }
+  body .page .section .row .col-4 .card .card-body .form-group {
+    margin-bottom: 9px !important;
+  }
+  body .page .section .row .col-8 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    line-height: 20px;
+    float: left;
+    max-width: 450px;
+    flex: none;
+  }
+  body .page .section .row .col-8 .card {
+    box-shadow: 2px 3px 8px 4px rgba(88, 88, 84, 0.822);
+  }
+  body .page .section .row .col-8 .card .card-body .card-title .edu-size {
+    font-size: 17px;
+    text-transform: uppercase;
+  }
+  body .page .section .row .col-8 .card .card-body .edu-size {
+    font-size: 17px;
+    text-transform: uppercase;
+  }
+  body .page .section .row .col-8 .card .card-body .Educational .edu-size {
+    font-size: 17px;
+    text-transform: uppercase;
+  }
+  body .page .section .row .col-8 .card .card-body .Educational form {
+    overflow-x: scroll;
+  }
+  body .page .section .row .col-8 .card .card-body .Educational form table {
+    overflow: hidden;
+    width: 640px;
+  }
+  body .page .section .row .col-8 .card .card-body .Educational form table tr th {
+    padding: 0px 10px;
+    float: left;
+    display: block;
+    text-align: center;
+    border: 1px solid black;
+    word-wrap: break-word;
+    height: 50px;
+  }
+  body .page .section .row .col-8 .card .card-body .Educational form table tr .course, body .page .section .row .col-8 .card .card-body .Educational form table tr .board, body .page .section .row .col-8 .card .card-body .Educational form table tr .institution {
+    width: 150px;
+  }
+  body .page .section .row .col-8 .card .card-body .Educational form table tr .year {
+    width: 80px;
+  }
+  body .page .section .row .col-8 .card .card-body .Educational form table tr .cgpa {
+    width: 107px;
+  }
+  body .page .section .row .col-8 .card .card-body .Educational form table tr td {
+    padding: 0px 10px;
+    float: left;
+    display: block;
+    text-align: center;
+    border: 1px solid black;
+    word-wrap: break-word;
+    height: 100px;
+  }
+  body .page .section .row .col-8 .card .card-body .Educational form table tr .course, body .page .section .row .col-8 .card .card-body .Educational form table tr .board, body .page .section .row .col-8 .card .card-body .Educational form table tr .institution {
+    width: 150px;
+  }
+  body .page .section .row .col-8 .card .card-body .Educational form table tr .year {
+    width: 80px;
+  }
+  body .page .section .row .col-8 .card .card-body .Educational form table tr .cgpa {
+    width: 107px;
+  }
+  body .page .section .row .col-8 .card .card-body .Internship {
+    text-align: justify;
+  }
+  body .page .section .row .col-8 .card .card-body .Internship .intern-size {
+    font-size: 17px;
+    text-transform: uppercase;
+  }
+  body .page .section .row .col-8 .card .card-body .Internship ul li a {
+    text-decoration: none !important;
+  }
+  body .page .section .row .col-8 .card .card-body .project {
+    text-align: justify;
+  }
+  body .page .section .row .col-8 .card .card-body .project .project-size {
+    font-size: 17px;
+    text-transform: uppercase;
+  }
+  body .page .section .row .col-8 .card .card-body .project ul li a {
+    text-decoration: none !important;
+  }
+  body .page .section .row .col-8 .card .card-body .Responsibility {
+    text-align: justify;
+  }
+  body .page .section .row .col-8 .card .card-body .Responsibility .intern-size {
+    font-size: 17px;
+    text-transform: uppercase;
+  }
+  body .page .section .row .col-8 .card .card-body .card-title {
+    text-transform: uppercase;
+  }
+  body .page .section .row .col-8 .card .card-body .form-group {
+    margin-bottom: 4px !important;
+  }
+  body .page div a .fa-arrow-circle-o-up {
+    position: fixed;
+    bottom: 25px;
+    right: 10px;
+    font-size: 30px !important;
+  }
+  body .page div a .fa-arrow-circle-o-up #scroll {
+    font-size: 16px;
+    margin-left: -10px;
+  }
+  body .page .footer {
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    display: block;
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 30px;
+    float: left;
+    text-transform: uppercase;
+  }
+  body .page .footer span {
+    padding: 0px 5px;
+  }
+  body .page .footer a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .card-gap {
+    margin-top: 10px;
+  }
+}
+@media (min-width: 360px) and (max-width: 499px) {
+  body {
+    background-color: #f8f8f8;
+  }
+  body .page .title {
+    background-color: purple;
+    width: 100%;
+    height: 50px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 2px;
+  }
+  body .page .title a {
+    text-decoration: none;
+  }
+  body .page .title #cv {
+    text-decoration: underline;
+    color: white;
+  }
+  body .page .title div #name {
+    font-size: 16px;
+    line-height: 10px;
+    color: white;
+  }
+  body .page .title div #tag {
+    display: none;
+  }
+  body .page .nav {
+    width: 100%;
+    height: 170px;
+    background-color: white;
+    margin: auto;
+  }
+  body .page .nav .container {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  body .page .nav .container ul {
+    list-style-type: none;
+  }
+  body .page .nav .container ul li a {
+    color: blue;
+    line-height: 34px;
+    padding: 0px 10px;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  body .page .nav .container ul li a .fa-home {
+    font-size: 22px !important;
+  }
+  body .page .nav .container ul li a:hover {
+    color: green;
+  }
+  body .page .section {
+    margin-top: 10px;
+  }
+  body .page .section .row .col-4 {
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body .page .section .row .col-4 .card {
+    box-shadow: 2px 3px 8px 4px rgba(88, 88, 84, 0.822);
+  }
+  body .page .section .row .col-4 .card .card-img-top {
+    width: 225px;
+    height: 225px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 50%;
+    background-color: whitesmoke;
+  }
+  body .page .section .row .col-4 .card .card-body .card-title {
+    text-transform: uppercase;
+  }
+  body .page .section .row .col-4 .hobbies {
+    display: none;
+  }
+  body .page .section .row .col-4 .card .card-body .card-title {
+    text-transform: uppercase;
+  }
+  body .page .section .row .col-4 .card .card-body .form-group {
+    margin-bottom: 9px !important;
+  }
+  body .page .section .row .col-8 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    line-height: 20px;
+    float: left;
+    max-width: 350px;
+    flex: none;
+  }
+  body .page .section .row .col-8 .card {
+    box-shadow: 2px 3px 8px 4px #958d8d;
+  }
+  body .page .section .row .col-8 .card .card-body .card-title .edu-size {
+    font-size: 17px;
+    text-transform: uppercase;
+  }
+  body .page .section .row .col-8 .card .card-body .edu-size {
+    font-size: 17px;
+    text-transform: uppercase;
+  }
+  body .page .section .row .col-8 .card .card-body .Educational .edu-size {
+    font-size: 17px;
+    text-transform: uppercase;
+  }
+  body .page .section .row .col-8 .card .card-body .Educational form {
+    overflow-x: scroll;
+  }
+  body .page .section .row .col-8 .card .card-body .Educational form table {
+    overflow: hidden;
+    width: 640px;
+  }
+  body .page .section .row .col-8 .card .card-body .Educational form table tr th {
+    padding: 0px 10px;
+    float: left;
+    display: block;
+    text-align: center;
+    border: 1px solid black;
+    word-wrap: break-word;
+    height: 50px;
+  }
+  body .page .section .row .col-8 .card .card-body .Educational form table tr .course, body .page .section .row .col-8 .card .card-body .Educational form table tr .board, body .page .section .row .col-8 .card .card-body .Educational form table tr .institution {
+    width: 150px;
+  }
+  body .page .section .row .col-8 .card .card-body .Educational form table tr .year {
+    width: 80px;
+  }
+  body .page .section .row .col-8 .card .card-body .Educational form table tr .cgpa {
+    width: 107px;
+  }
+  body .page .section .row .col-8 .card .card-body .Educational form table tr td {
+    padding: 0px 10px;
+    float: left;
+    display: block;
+    text-align: center;
+    border: 1px solid black;
+    word-wrap: break-word;
+    height: 100px;
+  }
+  body .page .section .row .col-8 .card .card-body .Educational form table tr .course, body .page .section .row .col-8 .card .card-body .Educational form table tr .board, body .page .section .row .col-8 .card .card-body .Educational form table tr .institution {
+    width: 150px;
+  }
+  body .page .section .row .col-8 .card .card-body .Educational form table tr .year {
+    width: 80px;
+  }
+  body .page .section .row .col-8 .card .card-body .Educational form table tr .cgpa {
+    width: 107px;
+  }
+  body .page .section .row .col-8 .card .card-body .Internship {
+    text-align: justify;
+  }
+  body .page .section .row .col-8 .card .card-body .Internship .intern-size {
+    font-size: 17px;
+    text-transform: uppercase;
+  }
+  body .page .section .row .col-8 .card .card-body .Internship ul li a {
+    text-decoration: none !important;
+  }
+  body .page .section .row .col-8 .card .card-body .project {
+    text-align: justify;
+  }
+  body .page .section .row .col-8 .card .card-body .project .project-size {
+    font-size: 17px;
+    text-transform: uppercase;
+  }
+  body .page .section .row .col-8 .card .card-body .project ul li a {
+    text-decoration: none !important;
+  }
+  body .page .section .row .col-8 .card .card-body .Responsibility {
+    text-align: justify;
+  }
+  body .page .section .row .col-8 .card .card-body .Responsibility .intern-size {
+    font-size: 17px;
+    text-transform: uppercase;
+  }
+  body .page div a .fa-arrow-circle-o-up {
+    position: fixed;
+    bottom: 25px;
+    right: 10px;
+    font-size: 30px !important;
+  }
+  body .page div a .fa-arrow-circle-o-up #scroll {
+    font-size: 16px;
+    margin-left: -10px;
+  }
+  body .page .footer {
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    display: block;
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 30px;
+    float: left;
+    text-transform: uppercase;
+  }
+  body .page .footer span {
+    padding: 0px 5px;
+  }
+  body .page .footer a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .card-gap {
+    margin-top: 10px;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */

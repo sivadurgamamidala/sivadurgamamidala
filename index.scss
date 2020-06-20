@@ -1,0 +1,1041 @@
+$color:rgb(248, 248, 248);
+$color1:purple;
+$color2:white;
+$color3:teal;
+$color4:whitesmoke;
+$color5:#958d8d;
+$color6:#d5d1d5;
+$color7:black;
+$color8:blue;
+$color9:green;
+$color10: rgba(88, 88, 84, 0.822);
+$color11: yellow;
+$width:100%;
+$width1:100px;
+$width2:300px;
+$width3:500px;
+$width4:225px;
+$width5:166px;
+$width6:80px;
+$width7:107px;
+$width8:350px;
+$width9:150px;
+$width10:450px;
+$width11:640px;
+$height:80px;
+$height1:20px;
+$height2:0px;
+$height3:50px;
+$height4:285px;
+$height5:100px;
+$height6:170px;
+$height7:34px;
+$height8:30px;
+$text-transform:uppercase;
+$text-align:center;
+$text-align1:justify;
+$text-decoration:none;
+$text-decoration1:underline;
+$font-size: 24px;
+$font-size1: 26px;
+$font-size2: 18px;
+$font-size3: 17px;
+$font-size4: 16px;
+$margin: auto;
+$margin1: 10px;
+$margin2: 9px;
+$list-style-type: none;
+$display: inline;
+$display1: block;
+$display2: none;
+$float: left;
+$imp:!important;
+$overflow:hidden;
+$box-shadow: 2px 3px 8px 4px #d5d1d5;
+@mixin message() {
+    padding: 0px 10px;
+    float: $float;
+    display: $display1;
+    text-align: $text-align;
+    border: 1px solid $color7;
+    word-wrap: break-word;
+}
+@mixin message1(){
+    text-transform: $text-transform;
+}
+@mixin inside-title() {
+    background-color: $color1;
+    width: $width;
+    height: $height;
+    color: $color2;
+    @include message1();
+    text-align: $text-align;
+    padding: 5px;
+}
+@mixin title(){
+    background-color: $color1;
+    width: $width;
+    height: $height3;
+    color: $color2;
+    text-transform: $text-transform;
+    text-align: $text-align;
+    padding: 2px;
+}
+@mixin message2 {
+    text-decoration: $text-decoration1;
+    color: $color2;
+}
+@mixin name() {
+    font-size: $font-size;
+    line-height: $height1;
+    color: $color2;
+}
+@mixin name1() {
+    font-size: 16px;
+    line-height: 10px;
+    color: white;
+}
+@mixin tag() {
+    display: none;
+}
+@mixin a() {
+    text-decoration: $text-decoration;
+    font-size: $font-size2;
+    text-transform: $text-transform;
+    text-align: $text-align;
+}
+@mixin a1() {
+    color: $color3;
+    background-color: $color2;
+}
+@mixin margin-auto() {
+    margin-left: $margin;
+     margin-right: $margin;
+}
+@mixin year-cgpa() {
+    .year{
+        width: $width6;
+    }
+    .cgpa{
+        width: $width7;
+    }
+}
+@mixin table-measurement() {
+    .course,.board,.institution{
+        width: $width5;
+    }
+    @include year-cgpa();
+}
+@mixin table-measurement1() {
+    .course,.board,.institution{
+        width: $width9;
+    }
+    @include year-cgpa();
+}
+@mixin col() {
+    @include margin-auto();
+    margin-top: $margin1;
+    line-height: $height1;
+    float: $float;
+}
+@mixin table-overflow() {
+    overflow: $overflow;
+    width: $width11;
+}
+@mixin  arrow() {
+    position: fixed;
+    bottom: 25px;
+    right: 10px;
+    font-size: 30px $imp;
+}
+@mixin footer() {
+    width: $width;
+    height: $height8;
+    position: absolute;
+    display: $display1;
+    color: $color2;
+    background-color: $color7;
+    text-align: $text-align;
+    margin-top:$margin1;
+    font-size: $font-size4;
+    line-height: $height8;
+    float: $float;
+    text-transform: $text-transform;
+}
+@mixin footer1() {
+    width: $width;
+    height: $height3;
+    position: absolute;
+    display: $display1;
+    color: $color2;
+    background-color: $color7;
+    text-align: $text-align;
+    margin-top: $margin1;
+    font-size: $font-size;
+    line-height: $height3;
+    float: $float;
+    text-transform: $text-transform;
+}
+@mixin footer-a() {
+    color: $color2;
+    text-decoration: $text-decoration;
+}
+@mixin card-img-top() {
+    width: $width4;
+    height: $width4;
+    margin-left: $margin;
+    margin-right: $margin;
+    display: $display1;
+    border-radius: 50%;
+    background-color: $color4;
+}
+@media  (min-width:1200px){
+    body{
+        background-color: $color;
+        .page{
+            .title{
+                @include inside-title();
+                a{
+                    text-decoration: $text-decoration;
+                }
+                #cv{
+                    @include message2();
+                }
+                div{
+                    #name{
+                        @include name();
+                    }
+                    #tag{
+                        font-size: 14px;
+                        line-height: $height2;
+                        color: $color2;
+                    }
+                }
+            }
+            .nav{
+                width: $width;
+                height: $height3;
+                background-color: $color3;
+                margin: $margin;
+                .container{
+                    ul{
+                        list-style-type:$list-style-type ;
+                        li{
+                            display: $display;
+                            a{
+                                color: $color2;
+                                line-height: $height3;
+                                padding:0px 20px;
+                                float: left;
+                                @include a();
+                                .fa-home{
+                                    font-size: 25px $imp;
+                                }
+                            }
+                            a:hover{
+                                @include a1();
+                            }
+                        }
+                    }
+                }
+            }
+            .section{
+                margin-top: $margin1;
+                .row{
+                    .col-4{
+                        max-width: $width3;
+                        @include margin-auto();
+                        .card{
+                            box-shadow: 2px 3px 8px 4px $color6;
+                            .card-img-top{
+                                @include card-img-top();
+                            }
+                            .card-body{
+                                .card-title{
+                                    text-transform: $text-transform;
+                                }
+                            }
+                        }
+                        .card{
+                            .card-body{
+                                .card-title{
+                                    text-transform: $text-transform;
+                                }
+                            }
+                        }
+                        .card{
+                            .card-body{
+                                .form-group{
+                                    margin-bottom: $margin2 $imp;
+                                }
+                            }
+                        }
+                    }
+                    .col-8{
+                        .card{
+                            box-shadow: 2px 3px 8px 4px $color6;
+                            .card-body{
+                                .card-title{
+                                    .edu-size{
+                                        font-size: $font-size3;
+                                        text-transform: $text-transform;
+                                    }
+                                }
+                                .edu-size{
+                                    text-transform: $text-transform;
+                                }
+                                .Educational{
+                                    .edu-size{
+                                        font-size: $font-size3;
+                                        text-transform: $text-transform;
+                                    }
+                                    form{
+                                        table{
+                                            tr{
+                                                th{
+                                                    @include message();
+                                                    height: 50px;
+                                                }
+                                                @include table-measurement();
+                                            }
+                                            tr{
+                                                td{
+                                                    @include message();
+                                                    height: 100px;
+                                                }
+                                                @include table-measurement();
+                                            }
+                                        }
+                                    }
+                                }
+                                .Internship{
+                                    .intern-size{
+                                        font-size: $font-size3;
+                                        text-transform: $text-transform;
+                                    }
+                                    ul{
+                                        li{
+                                            a{
+                                                text-decoration: $text-decoration $imp;
+                                            }
+                                        }
+                                    }
+                                }
+                                .project{
+                                    .project-size{
+                                        font-size: $font-size3;
+                                        text-transform: $text-transform;
+                                    }
+                                    ul{
+                                        li{
+                                            a{
+                                                text-decoration: $text-decoration $imp;
+                                            }
+                                        }
+                                    }
+                                }
+                                .Responsibility{
+                                    text-align: $text-align1;
+                                    .intern-size{
+                                        font-size: $font-size3;
+                                        text-transform: $text-transform;
+                                    }
+                                }
+                            }  
+                        }
+                        .hobbies-display{
+                            display: $display2;
+                        }
+                    }
+                }
+            }
+            div{
+                a{
+                    .fa-arrow-circle-o-up{
+                        position: fixed;
+                        top: 540px;
+                        left: 1270px;
+                        font-size: $height3 $imp;
+                        #scroll{
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+            .footer{
+                @include footer1();
+                span{
+                    padding: 0px 5px;
+                }
+                a{
+                    color: $color2;
+                    text-decoration: $text-decoration;
+                }
+            }
+        }
+    }
+    .card-gap{
+        margin-top: $margin1;
+    }
+    // .edu-size,.intern-size,.project-size{
+    //     font-size: $font-size1;
+    // }
+    // .course,.board,.institution{
+    //     width: 166px;
+    // }
+    // .year{
+    //     width: $width6;
+    // }
+    // .cgpa{
+    //     width: $width7;
+    // }
+}
+@media  (min-width:768px) and (max-width:1199px){
+    body{
+        background-color: $color;
+        .page{
+            .title{
+                @include inside-title();
+                a{
+                    text-decoration: $text-decoration;
+                }
+                #cv{
+                    @include message2();
+                }
+                div{
+                    #name{
+                        @include name();
+                    }
+                    #tag{
+                        font-size: 14px;
+                        line-height: $height2;
+                        color: $color2;
+                    }
+                }
+            }
+            .nav{
+                width: $width;
+                height: $height3;
+                background-color: $color3;
+                margin: $margin;
+                .container{
+                    ul{
+                        list-style-type:$list-style-type ;
+                        li{
+                            display: $display;
+                            a{
+                                color: $color2;
+                                line-height: $height3;
+                                padding:0px 20px;
+                                float: $float;
+                                @include a();
+                                .fa-home{
+                                    font-size: 25px $imp;
+                                }
+                            }
+                            a:hover{
+                                @include a1();
+                            }
+                        }
+                    }
+                }
+            }
+            .section{
+                margin-top: $margin1;
+                .row{
+                    .col-4{
+                        max-width: $width8;
+                        @include margin-auto();
+                        .card{
+                            box-shadow: 2px 3px 8px 4px $color6;
+                            .card-img-top{
+                                @include card-img-top();
+                            }
+                            .card-body{
+                                .card-title{
+                                    text-transform: $text-transform;
+                                }
+                            }
+                        }
+                        .card{
+                            .card-body{
+                                .card-title{
+                                    text-transform: $text-transform;
+                                }
+                            }
+                        }
+                        .card{
+                            .card-body{
+                                .form-group{
+                                    margin-bottom: $margin2 $imp;
+                                }
+                            }
+                        }
+                    }
+                    .col-8{
+                        @include margin-auto();
+                        line-height: $height1;
+                        .card{
+                            box-shadow: 2px 3px 8px 4px $color6;
+                            .card-body{
+                                .card-title{
+                                    .edu-size{
+                                        font-size: $font-size3;
+                                        text-transform: $text-transform;
+                                    }
+                                }
+                                .edu-size{
+                                    text-transform: $text-transform;
+                                }
+                                .Educational{
+                                    .edu-size{
+                                        font-size: $font-size3;
+                                        text-transform: $text-transform;
+                                    }
+                                    form{
+                                        overflow-x: scroll;
+                                        table{
+                                            @include table-overflow();
+                                            tr{
+                                                th{
+                                                    @include message();
+                                                    height: 50px;
+                                                }
+                                                @include table-measurement1();
+                                            }
+                                            tr{
+                                                td{
+                                                    @include message();
+                                                    height: 100px;
+                                                }
+                                                @include table-measurement1();
+                                            }
+                                        }
+                                    }
+                                }
+                                .Internship{
+                                    text-align: $text-align1;
+                                    .intern-size{
+                                        font-size: $font-size3;
+                                        text-transform: $text-transform;
+                                    }
+                                    ul{
+                                        li{
+                                            a{
+                                                text-decoration: $text-decoration $imp;
+                                            }
+                                        }
+                                    }
+                                }
+                                .project{
+                                    text-align: $text-align1;
+                                    .project-size{
+                                        font-size: $font-size3;
+                                        text-transform: $text-transform;
+                                    }
+                                    ul{
+                                        li{
+                                            a{
+                                                text-decoration: $text-decoration $imp;
+                                            }
+                                        }
+                                    }
+                                }
+                                .Responsibility{
+                                    text-align: $text-align1;
+                                    .intern-size{
+                                        font-size: $font-size3;
+                                        text-transform: $text-transform;
+                                    }
+                                }
+                            }
+                            
+                        }
+                        .hobbies-display{
+                            display: $display2;
+                        }
+                    }
+                    @media (min-width:768px){
+                        .col-8{
+                            max-width: 395px;
+                        }
+                    }
+                    @media (min-width:980px){
+                        .col-8{
+                            max-width: 395px;
+                        }
+                    }
+                    @media (min-width:992px){
+                        .col-8{
+                            max-width: 620px;
+                        }
+                    }
+                    @media (min-width:1100px){
+                        .col-8{
+                            max-width: 635px;
+                        }
+                    }
+                }
+            }
+            div{
+                a{
+                    .fa-arrow-circle-o-up{
+                        position: fixed;
+                        top: 540px;
+                        left: 1270px;
+                        font-size: $height3 $imp;
+                        #scroll{
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+            .footer{
+                @include footer1();
+                span{
+                    padding: 0px 5px;
+                }
+                a{
+                    color: $color2;
+                    text-decoration: $text-decoration;
+                }
+            }
+        }
+    }
+    .card-gap{
+        margin-top: $margin1;
+    }
+    // .edu-size,.intern-size,.project-size{
+    //     font-size: $font-size1;
+    // }
+    // .course,.board,.institution{
+    //     width: $width5;
+    // }
+    // .year{
+    //     width: $width6;
+    // }
+    // .cgpa{
+    //     width: $width7;
+    // }
+}
+@media  (min-width:500px) and (max-width:767px){
+    body{
+        background-color: $color11;
+        .page{
+            .title{
+                @include title();
+                a{
+                    text-decoration: $text-decoration;
+                }
+                #cv{
+                    @include message2();
+                }
+                div{
+                    #name{
+                        @include name1();
+                    }
+                    #tag{
+                        @include tag();
+                    }
+                }
+            }
+            .nav{
+                width: $width;
+                height: $height7;
+                background-color: $color3;
+                margin: $margin;
+                .container{
+                    ul{
+                        list-style-type:$list-style-type ;
+                        li{
+                            display: $display;
+                            a{
+                                color: $color2;
+                                line-height: $height7;
+                                padding:0px 10px;
+                                float: $float;
+                                @include a();
+                                .fa-home{
+                                    font-size: 22px $imp;
+                                }
+                            }
+                            a:hover{
+                                @include a1();
+                            }
+                        }
+                    }
+                }
+            }
+            .section{
+                margin-top: $margin1;
+                .row{
+                    .col-4{
+                        max-width: $width8;
+                        @include margin-auto();
+                        .card{
+                            box-shadow: 2px 3px 8px 4px $color10;
+                            .card-img-top{
+                                @include card-img-top();
+                            }
+                            .card-body{
+                                .card-title{
+                                    text-transform: $text-transform;
+                                }
+                            }
+                        }
+                        .hobbies{
+                            display: $display2;
+                        }
+                        .card{
+                            .card-body{
+                                .card-title{
+                                    text-transform: $text-transform;
+                                }
+                            }
+                        }
+                        .card{
+                            .card-body{
+                                .form-group{
+                                    margin-bottom: $margin2 $imp;
+                                }
+                            }
+                        }
+                    }
+                    .col-8{
+                        @include col();
+                        max-width:$width10; 
+                        flex: none;                   
+                        .card{
+                            box-shadow: 2px 3px 8px 4px $color10;
+                            .card-body{
+                                .card-title{
+                                    .edu-size{
+                                        font-size: $font-size3;
+                                        text-transform: $text-transform;
+                                    }
+                                }
+                                .edu-size{
+                                    font-size: $font-size3;
+                                    text-transform: $text-transform;
+                                }
+                                .Educational{
+                                    .edu-size{
+                                        font-size: $font-size3;
+                                        text-transform: $text-transform;
+                                    }
+                                    form{
+                                        overflow-x: scroll;
+                                        table{
+                                            @include table-overflow();
+                                            tr{
+                                                th{
+                                                    @include message();
+                                                    height: 50px;
+                                                }
+                                                @include table-measurement1();
+                                            }
+                                            tr{
+                                                td{
+                                                    @include message();
+                                                    height: 100px;
+                                                }
+                                                @include table-measurement1();
+                                            }
+                                        }
+                                    }
+                                }
+                                .Internship{
+                                    text-align: $text-align1;
+                                    .intern-size{
+                                        font-size: $font-size3;
+                                        text-transform: $text-transform;
+                                    }
+                                    ul{
+                                        li{
+                                            a{
+                                                text-decoration: $text-decoration $imp;
+                                            }
+                                        }
+                                    }
+                                }
+                                .project{
+                                    text-align: $text-align1;
+                                    .project-size{
+                                        font-size: $font-size3;
+                                        text-transform: $text-transform;
+                                    }
+                                    ul{
+                                        li{
+                                            a{
+                                                text-decoration: $text-decoration $imp;
+                                            }
+                                        }
+                                    }
+                                }
+                                .Responsibility{
+                                    text-align: $text-align1;
+                                    .intern-size{
+                                        font-size: $font-size3;
+                                        text-transform: $text-transform;
+                                    }
+                                }
+                            }
+                            
+                        }
+                        .card{
+                            .card-body{
+                                .card-title{
+                                    text-transform: $text-transform;
+                                }
+                                .form-group{
+                                    margin-bottom: 4px !important;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            div{
+                a{
+                    .fa-arrow-circle-o-up{
+                        @include arrow();
+                        #scroll{
+                            font-size: 16px;
+                            margin-left: -10px;
+                        }
+                    }
+                }
+            }
+            .footer{
+                @include footer();
+                span{
+                    padding: 0px 5px;
+                }
+                a{
+                    @include footer-a();
+                }
+            }
+        }
+    }
+    .card-gap{
+        margin-top: $margin1;
+    }
+    // .edu-size,.intern-size,.project-size{
+    //     font-size: $font-size1;
+    // }
+    // .course,.board,.institution{
+    //     width: $width5;
+    // }
+    // .year{
+    //     width: $width6;
+    // }
+    // .cgpa{
+    //     width: $width7;
+    // }
+}
+@media  (min-width:360px) and (max-width:499px){
+    body{
+        background-color: $color;
+        .page{
+            .title{
+                @include title();
+                a{
+                    text-decoration: $text-decoration;
+                }
+                #cv{
+                    @include message2();
+                }
+                div{
+                    #name{
+                        @include name1();
+                    }
+                    #tag{
+                        @include tag();
+                    }
+                }
+            }
+            .nav{
+                width: 100%;
+                height: 170px;
+                background-color: white;
+                margin: auto;
+                .container{
+                    margin-left: auto;
+                    margin-right: auto;
+                    text-align: center;
+                    ul{
+                        list-style-type:$list-style-type ;
+                        li{
+                            a{
+                                color: $color8;
+                                line-height: $height7;
+                                padding: 0px 10px;
+                                @include a();
+                                .fa-home{
+                                    font-size: 22px $imp;
+                                }
+                            }
+                            a:hover{
+                                color: $color9;
+                            }
+                        }
+                    }
+                }
+            }
+            .section{
+                margin-top: $margin1;
+                .row{
+                    .col-4{
+                        max-width: $width8;
+                        @include margin-auto();
+                        .card{
+                            box-shadow: 2px 3px 8px 4px $color10;
+                            .card-img-top{
+                                @include card-img-top();
+                            }
+                            .card-body{
+                                .card-title{
+                                    text-transform: $text-transform;
+                                }
+                            }
+                        }
+                        .hobbies{
+                            display: $display2;
+                        }
+                        .card{
+                            .card-body{
+                                .card-title{
+                                    text-transform: $text-transform;
+                                }
+                            }
+                        }
+                        .card{
+                            .card-body{
+                                .form-group{
+                                    margin-bottom: $margin2 $imp;
+                                }
+                            }
+                        }
+                    }
+                    .col-8{
+                        @include col();
+                        max-width:350px;
+                        flex: none;
+                        .card{
+                            box-shadow: 2px 3px 8px 4px $color5;
+                            .card-body{
+                                .card-title{
+                                    .edu-size{
+                                        font-size: $font-size3;
+                                        text-transform: $text-transform;
+                                    }
+                                }
+                                .edu-size{
+                                    font-size: $font-size3;
+                                    text-transform: $text-transform;
+                                }
+                                .Educational{
+                                    .edu-size{
+                                        font-size: $font-size3;
+                                        text-transform: $text-transform;
+                                    }
+                                    form{
+                                        overflow-x: scroll;
+                                        table{
+                                            @include table-overflow();
+                                            tr{
+                                                th{
+                                                    @include message();
+                                                    height: 50px;
+                                                }
+                                                @include table-measurement1();
+                                            }
+                                            tr{
+                                                td{
+                                                    @include message();
+                                                    height: 100px;
+                                                }
+                                                @include table-measurement1();
+                                            }
+                                        }
+                                    }
+                                }
+                                .Internship{
+                                    text-align: $text-align1;
+                                    .intern-size{
+                                        font-size: $font-size3;
+                                        text-transform: $text-transform;
+                                    }
+                                    ul{
+                                        li{
+                                            a{
+                                                text-decoration: $text-decoration $imp;
+                                            }
+                                        }
+                                    }
+                                }
+                                .project{
+                                    text-align: $text-align1;
+                                    .project-size{
+                                        font-size: $font-size3;
+                                        text-transform: $text-transform;
+                                    }
+                                    ul{
+                                        li{
+                                            a{
+                                                text-decoration: $text-decoration $imp;
+                                            }
+                                        }
+                                    }
+                                }
+                                .Responsibility{
+                                    text-align: $text-align1;
+                                    .intern-size{
+                                        font-size: $font-size3;
+                                        text-transform: $text-transform;
+                                    }
+                                }
+                            }
+                            
+                        }
+                    }
+                }
+            }
+            div{
+                a{
+                    .fa-arrow-circle-o-up{
+                       @include arrow();
+                        #scroll{
+                            font-size: 16px;
+                            margin-left: -10px;
+                        }
+                    }
+                }
+            }
+            .footer{
+                @include footer();
+                span{
+                    padding: 0px 5px;
+                }
+                a{
+                    @include footer-a();
+                }
+            }
+        }
+    }
+    .card-gap{
+        margin-top: $margin1;
+    }
+    // .edu-size,.intern-size,.project-size{
+    //     font-size: $font-size1;
+    // }
+    // .course,.board,.institution{
+    //     width: $width5;
+    // }
+    // .year{
+    //     width: $width6;
+    // }
+    // .cgpa{
+    //     width: $width7;
+    // }
+}
