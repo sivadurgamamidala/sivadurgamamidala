@@ -31,6 +31,7 @@ $height5:100px;
 $height6:170px;
 $height7:34px;
 $height8:30px;
+$bottom: 40px;
 $text-transform:uppercase;
 $text-align:center;
 $text-align1:justify;
@@ -49,7 +50,7 @@ $display: inline;
 $display1: block;
 $display2: none;
 $float: left;
-$imp:!important;
+$imp: !important;
 $overflow:hidden;
 $box-shadow: 2px 3px 8px 4px #d5d1d5;
 @mixin message() {
@@ -353,8 +354,8 @@ $box-shadow: 2px 3px 8px 4px #d5d1d5;
                 a{
                     .fa-arrow-circle-o-up{
                         position: fixed;
-                        top: 540px;
-                        left: 1270px;
+                        bottom: $bottom;
+                        right : 9px;
                         font-size: $height3 $imp;
                         #scroll{
                             font-size: 16px;
@@ -581,11 +582,14 @@ $box-shadow: 2px 3px 8px 4px #d5d1d5;
                 a{
                     .fa-arrow-circle-o-up{
                         position: fixed;
-                        top: 540px;
-                        left: 1270px;
-                        font-size: $height3 $imp;
+                        // top: 540px;
+                        // left: 1270px;
+                        bottom: $bottom;
+                        right: 9px;
+                        // font-size: $height3 $imp;
+                        font-size : 45px $imp;
                         #scroll{
-                            font-size: 16px;
+                            font-size: 13px;
                         }
                     }
                 }

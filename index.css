@@ -162,8 +162,8 @@
   }
   body .page div a .fa-arrow-circle-o-up {
     position: fixed;
-    top: 540px;
-    left: 1270px;
+    bottom: 40px;
+    right: 9px;
     font-size: 50px !important;
   }
   body .page div a .fa-arrow-circle-o-up #scroll {
@@ -399,12 +399,12 @@
 @media (min-width: 768px) and (max-width: 1199px) {
   body .page div a .fa-arrow-circle-o-up {
     position: fixed;
-    top: 540px;
-    left: 1270px;
-    font-size: 50px !important;
+    bottom: 40px;
+    right: 9px;
+    font-size: 45px !important;
   }
   body .page div a .fa-arrow-circle-o-up #scroll {
-    font-size: 16px;
+    font-size: 13px;
   }
 }
 @media (min-width: 768px) and (max-width: 1199px) {
@@ -878,6 +878,4 @@
   .card-gap {
     margin-top: 10px;
   }
-}
-
-/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */
